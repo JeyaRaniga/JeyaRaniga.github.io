@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Blog</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="CSS positioning blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <meta name="author" content="Jeya Raniga">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav>
+            <ul>
+                    <li>Home</li>
+                    <li>Technical Blog</li>
+                    <ul>
+                        <li>Technical-1</li>
+                    </ul>
+                    <li>Cultural Blog</li>
+                    <ul>
+                        <li>cultural-1</li>
+                        <li>Cultural-2</li>
+                    </ul>
+                  </ul>
+    </nav>
+    <h1 class="main-heading"></h1> 
+    <section id="introduction">
+        <p>An important concept to understand first is that the CSS position property defines how an element is positioned on the web page. This means you can set a width and a height and that element will adhere to these requirments. Its default value is static. When an element’s position property doesn’t have a value of static, it’s called a “positioned element.” There are several types ofn positioned elements, but the key types discussed in this blog are <strong>relative, absolute and fixed position.</strong></p>
+        <img src="https://internetingishard.com/html-and-css/advanced-positioning/css-positioning-schemes-790d5b.png" alt="Positioning">
+        <br>
+    </section>
+    <section>
+        <h2>Relative Positioning</h2>
+        <p>When Relative positioning” moves elements around relative to where they would normally appear in the static flow of the page. This is useful for nudging boxes around when the default flow is just a little bit off. The position: relative; line makes it a positioned element, and the top and left properties let you define how far it’s offset from its static position.</p>
+    </section>
+    <section>
+        <h2>Absolute Positioning</h2>
+        <p>Absolute positioning is just like relative positioning, but the offset is relative to the entire browser window instead of the original position of the element. Since there’s no longer any relationship with the static flow of the page, consider this the most manual way to lay out an element.</p>
+    </section>
+    <section>
+        <h2>Fixed Positioning</h2>
+        <p>“Fixed positioning” has a lot in common with absolute positioning: it’s very manual, the element is removed from the normal flow of the page, and the coordinate system is relative to the entire browser window. The key difference is that fixed elements don’t scroll with the rest of the page.</p>
+    </section>
+        
+  </body>
+  <footer>source: <a href="https://internetingishard.com/html-and-css/advanced-positioning/">Advanced Positioning</a>
+  </footer>
+</html>
