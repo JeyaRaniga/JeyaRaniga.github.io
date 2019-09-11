@@ -7,42 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="30">
     <meta name="author" content="Jeya Raniga">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><Strong>Technical Blog</Strong></li>
+      <nav class="boxed-1">
+          <ul>
             <ul>
-                <li><a href="sprint1-technical.html">HTML Blog Setup</a></li>
-                <li><a href="technical-blog.html">CSS Positioning</a></li>
+              <li><a href="index.html"><strong>Home</strong></a></li>
+              <li>Technical Blog</li>
+              <ul>
+                  <li><a href="sprint1-technical.html"><strong>HTML Blog Setup</strong></a></li>
+                  <li><a href="technical-blog.html"><strong>CSS Positioning</strong></a></li>
+              </ul>
+              <li>Cultural Blog</li>
+              <ul>
+                  <li><a href="sprint1-cultural.html"><strong>Identities and Values Exploration</strong></a></li>
+                  <li><a href="sprint2-cultural.html"><strong>My Learning Plan</strong></a></li>
+              </ul>
             </ul>
-            <li><strong>Cultural Blog</strong></li>
-            <ul>
-                <li><a href="sprint1-cultural.html">Identities and Values Exploration</a></li>
-                <li><a href="sprint2-cultural.html">My Learning Plan</a></li>
-            </ul>
-          </ul>
-    </nav>
-    <h1 class="main-heading"></h1> 
-    <section id="introduction">
+      </nav>
+
+      <div class="boxed-content">
+        <h1>CSS Positioning</h1> 
+    
+      <section>
         <p>An important concept to understand first is that the CSS position property defines how an element is positioned on the web page. This means you can set a width and a height and that element will adhere to these requirments. Its default value is static. When an element’s position property doesn’t have a value of static, it’s called a “positioned element.” There are several types ofn positioned elements, but the key types discussed in this blog are <strong>relative, absolute and fixed position.</strong></p>
         <img src="https://internetingishard.com/html-and-css/advanced-positioning/css-positioning-schemes-790d5b.png" alt="Positioning">
         <br>
-    </section>
-    <section>
+      </section>
+      <section>
         <h2>Relative Positioning</h2>
         <p>When Relative positioning” moves elements around relative to where they would normally appear in the static flow of the page. This is useful for nudging boxes around when the default flow is just a little bit off. The position: relative; line makes it a positioned element, and the top and left properties let you define how far it’s offset from its static position.</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <h2>Absolute Positioning</h2>
         <p>Absolute positioning is just like relative positioning, but the offset is relative to the entire browser window instead of the original position of the element. Since there’s no longer any relationship with the static flow of the page, consider this the most manual way to lay out an element.</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <h2>Fixed Positioning</h2>
         <p>“Fixed positioning” has a lot in common with absolute positioning: it’s very manual, the element is removed from the normal flow of the page, and the coordinate system is relative to the entire browser window. The key difference is that fixed elements don’t scroll with the rest of the page.</p>
-    </section>
+      </section>
+    </div>
         
   </body>
   <footer>
