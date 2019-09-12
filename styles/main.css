@@ -120,3 +120,30 @@ body {
     right: 190px;
     bottom: 50px;
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: left;
+}
+
+table {
+  table-layout: fixed;
+}
+
+tr:hover {
+  background-color: grey;
+  color: white;
+}
+
+th {
+  background-color: rgb(207, 245, 248)
+}
+
+.center {
+  display: block;
+  margin-left: 270px;
+  margin-right: 500px;
+  width: 50%;
+}
