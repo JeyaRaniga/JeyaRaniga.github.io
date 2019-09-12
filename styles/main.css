@@ -1,6 +1,6 @@
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
     font-family: Calibri;
     background-image: url("https://live.staticflickr.com/4392/35521128893_d20d7704b3_b.jpg");
 }
@@ -16,33 +16,36 @@ body {
     color: black;
 }
 
-.boxed-1 {
+.navigation {
     display: block;
     height: 100vh;
     overflow: auto;
     width: 200px;
     padding: 15px;
-    border: 2px solid whitesmoke;
+    border: 2px solid white;
     background-color: rgb(207, 245, 248);
     position: fixed;
     left: 10px;
     top: 10px;
 }
 
-.boxed-2 {
+
+.index-boxed1 {
     display: block;
     height: 500px;
     width:900px;
     padding: 15px;
-    background-color: whitesmoke;
+    background-color: white;
+    border: 1px solid rgb(207, 245, 248);
     position: fixed;
     left: 700px;
     bottom: 700px;
 }
 
-.boxed-3 {
+.index-boxed2 {
     text-align: justify;
-    background-color: rgb(217, 243, 217);
+    background-color: white;
+    border: 1px solid rgb(207, 245, 248);
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -56,24 +59,24 @@ body {
 }
 
 
-ul {
+.navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid rgb(207, 248, 207);
-    background-color: whitesmoke;
+    border: 1px solid rgb(207, 245, 248);
+    background-color: white;
   }
   
-  li {
+  .navigation li {
     display: block;
-    background-color: rgb(207, 248, 207);
+    background-color: rgb(207, 245, 248);
     text-align: center;
     padding: 5px 5px;
     text-decoration: none;
   }
   
-  li a {
+  .navigation li a {
     display: block;
     color: black;
     text-align: center;
@@ -81,60 +84,39 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  .navigation li a:hover:not(.active) {
     background-color: gray;
     color: whitesmoke;
   }
   
-  li a.active {
+  .navigation li a.active {
     color: white;
-    background-color: rgb(207, 248, 207);
+    background-color: rgb(207, 245, 248);
   }
 
-  .boxed-content {
+  .blog-generic {
     display: block;
     height: 100vh;
     overflow: auto;
     width: 1250px;
     padding: 15px;
-    border: 2px solid whitesmoke;
-    background-color: rgb(207, 248, 207);
+    border: 2px solid rgb(207, 245, 248);
+    background-color: white;
     position: fixed;
     left: 280px;
     top: 10px;
 }
 
-.box {
-    width: 200px;
-    height: 200px;
-    background: red;
-    position: relative;
-    top: 40px;
-}
-.shape {
-    width: 250px;
-    height: 250px;
-    background: navy;
-    border-radius: 50%;
-    position: absolute;
-    left: 75px;
-    top: 50px;
-    overflow: hidden;
-}
-
-#top-left {
-    width: 150px;
-    height: 150px;
-    background: purple;
-    position: relative;
-    left: -25px;
-}
-
-ol {
-    list-style-type: inherit
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid rgb(207, 248, 207);
-    background-color: whitesmoke;
+.footer-box {
+    text-align: justify;
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    display: block;
+    height: 40px;
+    width:1200px;
+    padding: 5px;
+    position: fixed;
+    right: 190px;
+    bottom: 50px;
 }
