@@ -1,8 +1,7 @@
 
 body {
-    background-color: white;
+    background-color: grey;
     font-family: Calibri;
-    background-image: url("https://live.staticflickr.com/4392/35521128893_d20d7704b3_b.jpg");
 }
 
 .intro-main-heading {
@@ -138,7 +137,7 @@ tr:hover {
 }
 
 th {
-  background-color: rgb(207, 245, 248)
+  background-color: rgb(207, 245, 248);
 }
 
 .center {
@@ -146,4 +145,11 @@ th {
   margin-left: 270px;
   margin-right: 500px;
   width: 50%;
+}
+
+.about-me img {
+    border: 1px solid rgb(207, 245, 248);
+    position: fixed;
+    left: 200px;
+    bottom: 100px;
 }
