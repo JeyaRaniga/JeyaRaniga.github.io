@@ -11,26 +11,43 @@
     <link rel="stylesheet" href="../styles/main.css">
   </head>
   <body>
-      <div class="topnav" id="myTopnav">
-          <a href="index.html">Home</a>
-          <a href="blogpost.html">Blog</a>
-          <a href="about-me.html" class="active">About Me</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-
-
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
+      <nav class="navbar is-primary" role="navigation" aria-label="main-navigation">
+          <div id="navbarExampleTransparentExample" class="navbar-menu" class="is-fixed-top">
+            <div class="navbar-start">
+              <a class="navbar-item" href="index.html">
+                Home
+              </a>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="#">
+                  Blog Posts
+                </a>
+                <div class="navbar-dropdown is-boxed">
+                  <a class="navbar-item" href="sprint1-technical.html">
+                      The Story of Te Houtaewa
+                  </a>
+                  <a class="navbar-item" href="sprint2-technical.html">
+                      CSS Positioning
+                  </a>
+                  <a class="navbar-item" href="#">
+                    HTML, CSS and JavaScript
+                  </a>
+                  <hr class="navbar-divider">
+                  <a class="navbar-item" href="sprint1-cultural.html">
+                    Identity and Values
+                  </a>
+                  <a class="navbar-item" href="sprint2-cultural.html">
+                    Learning Plan
+                  </a>
+                  <a class="navbar-item" href="#">
+                    Emotional Intelligence
+                  </a>
+                </div>
+              </div>
+              <a class="navbar-item" href="about-me.html">
+                  About Me
+                </a>
+            </div>
+          </nav>   
   </body>
   <footer>
     
