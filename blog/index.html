@@ -19,36 +19,43 @@
             <div class="navbar-start">
                 <a class="navbar-item" href="index.html">
                  Home
-              </a>
+                </a>
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link" href="#">
-                  Blog Posts
-                </a>
+                    Blog Posts
+                  </a>
                     <div class="navbar-dropdown is-boxed">
                         <a class="navbar-item" href="sprint1-technical.html">
-                      The Story of Te Houtaewa
-                  </a>
+                        The Story of Te Houtaewa
+                      </a>
                         <a class="navbar-item" href="sprint2-technical.html">
-                      CSS Positioning
-                  </a>
+                        CSS Positioning
+                      </a>
                         <a class="navbar-item" href="sprint3-technical.html">
-                    HTML, CSS and JavaScript
-                  </a>
+                        HTML, CSS and JavaScript
+                      </a>
+                        <a class="navbar-item" href="#">
+                        Problem-Solving
+                      </a>
                         <hr class="navbar-divider">
                         <a class="navbar-item" href="sprint1-cultural.html">
-                    Identity and Values
-                  </a>
+                        Identity and Values
+                      </a>
                         <a class="navbar-item" href="sprint2-cultural.html">
-                    Learning Plan
-                  </a>
+                        Learning Plan
+                      </a>
                         <a class="navbar-item" href="sprint3-cultural.html">
-                    Emotional Intelligence
-                  </a>
+                        Emotional Intelligence
+                      </a>
+                        <a class="navbar-item" href="#">
+                          Neuroplasticity and Growth Mindset
+                      </a>
+
                     </div>
                 </div>
                 <a class="navbar-item" href="about-me.html">
-                  About Me
-                </a>
+                    My Projects
+                  </a>
             </div>
     </nav>
 
@@ -56,13 +63,13 @@
         <div class="hero-body">
 
             <div class="container">
-                <h1 class="title is-1 has-text-primary">
+                <h1 class="title is-huge has-text-warning">
                     Hello,
                 </h1>
                 <h2 class="subtitle">
-                    Welcome to my blog!
+                    welcome to my blog
                 </h2>
-                <p>I've learnt that great design is all about building a deep empathy with the people you're designing for; generating ideas with them; building prototypes for them; and eventually sharing what you have made with them. I may not be amazing
+                <p> I've learnt that great design is all about building a deep empathy with the people you're designing for; generating ideas with them; building prototypes for them; and eventually sharing what you have made with them. I may not be amazing
                     at it now but I will definately work towards it.</p>
             </div>
         </div>
@@ -106,7 +113,7 @@
                             Sprint 3
                         </p>
                         <p>
-                            We are introduced to <strong>JavaScript</strong> and learn how to manipulate the <strong>DOM</strong> and how to use <strong>DEV tools</strong>.
+                            We are introduced to <strong>JavaScript</strong> and learn how to manipulate the <strong>DOM</strong> using <strong>DEV tools</strong>.
                         </p>
                     </div>
                 </div>
@@ -132,13 +139,100 @@
                             Sprint 5
                         </p>
                         <p>
-                            The final sprint with a <strong>Technical Deep Dive</strong>.
+                            The final sprint has <strong>Technical Deep Dive</strong> and we have to complete the minesweeper and calculator challenges.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <section class="hero is-small !is-sticky">
+        <div class="hero-body">
+            <div class="container">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand">
+                        <br>
+                        <br>
+                        <a class="navbar-item" href="https://bulma.io">
+                            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                        </a>
+                        <!-- Trigger/Open The Modal -->
+                        <div class="container">
+                            <button id="myBtn" class="button is-success is-large">About Me</button>
+
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>
+
+                                        <article class="media">
+                                            <figure class="media-left">
+                                                <p class="image is-64x64">
+                                                    <img src="https://media.licdn.com/dms/image/C5603AQGL2MVge7EwqA/profile-displayphoto-shrink_200_200/0?e=1574899200&v=beta&t=YgQTyrUJoC8y7mNG9rtDVXkYxdsRa9mNQhS-qGv1gxM">
+                                                </p>
+                                            </figure>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <p>
+                                                        <strong>Jeya Raniga</strong>
+                                                        <br> Hello and welcome to my <strong>very first site</strong>! Let me introduce myself, my name is Jey and I have lived in Auckland for the last 6 years. I have <strong>always</strong> wanted to
+                                                        be a developer.
+                                                        <br>
+                                                        <br> Unfortunately, I did an accounting degree instead and became a business analyst. A few years ago a collegue of mine quit her job as a project manager and to become a fullstack developer.
+                                                        <br>
+                                                        <br> I had my doubts but she is now a successful fullstack developer and is living her dream. I have come to realise that we all can do whatever we want. <strong>The only one holding me back was me</strong>                                                        because I believed it was too late for me. So I left what I was doing and joined Dev Academy to find my way around the world of web development.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+    </section>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        if (btn) {
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+        };
+
+        // When the user clicks on <span> (x), close the modal
+        if (span) {
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
 <footer>
 
